@@ -1,0 +1,58 @@
+    ol {
+        background-color: yellow; 
+    }   
+
+    ol li:nth-child(odd){
+        text-transform: uppercase;
+    }
+    ol li:nth-child(even){
+        color: green;
+    }
+
+    h1, h2, h3 {
+        color: red;
+    }
+
+    h1, h2, h3 > i{
+        border: 1px solid black;
+    }
+
+    li {
+        font-size: 20px
+    }
+
+    ol, ul li > em {
+        font-weight: bold;
+    }
+
+    .cor-azul-lista:nth-child(-n+3){
+        color: rgb(0, 103, 221)
+    }
+
+    .cor-azul-lista li >  {
+
+    }
+
+    .java-color {
+        background-color: pink;
+    }
+    div ul li:hover {
+        background-color: ;
+        font-weight: bold;
+    }
+    .cores-site-laranja:hover{
+       background-color: orange;
+
+    }
+    .cores-site-verde:hover{
+        background-color: green;
+    }
+    .cores-site-preta:hover{
+        background-color: black;
+    }
+    .cores-site-amarela:hover{
+        background-color: yellow;
+    }
+    .cores-site-verde2:hover{
+        background-color: #2fc18c;
+    }
