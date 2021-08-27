@@ -1,13 +1,17 @@
-const n = 5
- let symbol = '*';
- let line = '';
- let spaceBar = '';
+let n = 5;
+let symbol = '*';
+let inputLine = '';
+let inputPosition = n;
 
-for (let index = n; index > 0; index-= 1) {
-    line = line + symbol;
-    for (let index = 0; index < n; index+= 1) {
-    spaceBar+= ' '
-    
-}
-console.log(spaceBar + line);
-}
+for (let lineIndex = 0; lineIndex < n; lineIndex += 1) {
+  for (let columnIndex = 0; columnIndex <= n; columnIndex += 1) {
+    if (columnIndex < inputPosition) {
+      inputLine = inputLine + ' ';
+    } else {
+      inputLine = inputLine + symbol;
+    }
+  }
+  console.log(inputLine);
+  inputLine = '';
+  inputPosition -= 1;
+};
