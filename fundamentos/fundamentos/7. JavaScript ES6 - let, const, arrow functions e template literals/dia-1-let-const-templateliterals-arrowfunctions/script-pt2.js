@@ -1,39 +1,39 @@
-// // Retorna o fatorial de N:
-// let fatorial = 1;
-// const factorialOfNumber = (n) => {
-//   for (let i = 2; i <= n; i+= 1) {
-//     fatorial *= i
+// Retorna o fatorial de N:
+let fatorial = 1;
+const factorialOfNumber = (n) => {
+  for (let i = 2; i <= n; i+= 1) {
+    fatorial *= i
     
-//   }
-//   return `O fatorial de ${n} é : ${fatorial}`;
-// }
-// console.log(factorialOfNumber(4));
+  }
+  return `O fatorial de ${n} é : ${fatorial}`;
+}
+console.log(factorialOfNumber(4));
 
 
-// // Retorna a maior palavra:
-// const biggerWord = (frase) => {
-// let wordArrays = frase.split(' ');
-// let maxLength = 0;
-// let result = '';
-// for (const i of wordArrays) {
-//   if (i.length > maxLength) {
-//     maxLength = i.length
-//     result = i;
-//   }
-// }
-// return result;
-// }
-// console.log(biggerWord('gato cachorro papagaio ornintorrinco'));
+// Retorna a maior palavra:
+const biggerWord = (frase) => {
+let wordArrays = frase.split(' ');
+let maxLength = 0;
+let result = '';
+for (const i of wordArrays) {
+  if (i.length > maxLength) {
+    maxLength = i.length
+    result = i;
+  }
+}
+return result;
+}
+console.log(biggerWord('gato cachorro papagaio ornintorrinco'));
 
-// // ClickCount:
-// const btn = document.getElementById('btn');
-// const span = document.getElementById('text');
-// let clicks = 0;
+// ClickCount:
+const btn = document.getElementById('btn');
+const span = document.getElementById('text');
+let clicks = 0;
 
-// btn.addEventListener('click', () => {
+btn.addEventListener('click', () => {
   
-//   span.innerHTML = clicks += 1;
-// });
+  span.innerHTML = clicks += 1;
+});
 
 let skills = ['Javascript', 'CSS', 'HTML', 'DOM', 'Git'];
 
