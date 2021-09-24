@@ -1,0 +1,74 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body{
+	font-family: cursive;
+}
+
+header {
+	background-color: rgb(11, 23, 39);
+	color: white;
+}
+
+.aside-one {
+	background-color: rgb(11, 23, 39);
+	color: white;
+}
+
+footer {
+	background-color: rgb(11, 23, 39);
+	color: white;
+}
+
+@media (max-width: 425px) {
+	.container{
+		flex-direction: column;
+	}
+	
+	header {
+		display: flex;
+	}
+	header p {
+		display: flex;
+		align-self: center;
+	}
+}
+
+@media (min-width: 768px) {
+
+	header{
+		padding: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		font-size: large;
+	}
+
+	header .nav {
+		display: flex;
+		list-style-type: none;
+	}
+
+	.nav li {
+		padding: 5px;
+	}
+}
+
+@media (min-width: 992px) {
+	body {
+		font-size: 1.1em;
+	}
+	header{
+		font-size: 19px;
+		padding: 0 16px;
+	}
+
+	header p {
+		font-family: 'Bonheur Royale', cursive;
+		font-size: 39px;
+	}
+}
