@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 5%;
+    font-size: 1.3em;
+}
+h1 {
+    font-size: 1.6em;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+  margin: 3% 0;
+}
+
+@media (min-width: 800px) {
+  body {
+    background-color: gray;
+    font-size: 1.5em;
+    margin: 2%;
+  }
+
+  main {
+    display: flex;  
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  figure {
+    flex-basis: calc(50% - 10px);
+  }
+
+  main h2 {
+    flex-basis: 100%;
+  }
+}
+
+@media (min-width:1400px) {
+  body {
+    background-color: green;
+    font-size: 1.7em;
+    margin: 4%;
+    max-width: 70%;
+  }
+}

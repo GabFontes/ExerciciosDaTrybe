@@ -27,3 +27,5 @@ const testingScope = escopo => {
 
   const inOrder = crescentOrder();
   console.log(`Os números ${inOrder} se encontram ordenados de forma crescente!`); 
+
+  
