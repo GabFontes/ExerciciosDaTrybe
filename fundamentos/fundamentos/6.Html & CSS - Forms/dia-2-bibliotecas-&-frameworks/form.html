@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+
+    <link rel="stylesheet" href="">
+
+
+    <title>Forms</title>
+</head>
+<body>
+    <header class="form-header">
+        <h1>Formulário de Cadastro de Currículos</h1>
+        <p>Preencha os campos a baixo.</p>
+    </header>
+    <main>
+        <form action="" method="GET" class="js-form">
+            <fieldset id="Forms" name="Texto">
+                <div class="form-group">
+                    <label for="name-input">Nome:</label>
+                    <input data-validate-field="name" class="form-control" type="text" required name="name-input" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email-input">E-mail:</label>
+                    <input data-validate-field="email" class="form-control" type="email" name="email" id="email-input" required maxlength="50">
+                </div>
+                <div class="form-group">
+                    <label for="cpf-input">CPF:</label>
+                    <input data-validate-field="CPF" class="form-control" type="text" name="cpf" id="cpf-input" maxlength="11" required>
+                </div>
+                <div class="form-group">
+                    <label for="adress-input">Endereço:</label>
+                    <input data-validate-field="text" class="form-control" type="text" required maxlength="200" id="adress-input">
+                </div>
+                <div class="form-group">
+                    <label for="city">Cidade:</label>
+                    <input data-validate-field="text" class="form-control" type="text" name="city" id="city-input" required maxlength="28">
+               </div>
+                <div>
+                    <label for="state-input">Estado:</label>
+                    <select name="state" id="state-input" required>
+                </div>
+                </select>
+
+                <p>Morada:</p>
+
+                <label for="house">
+                    <input type="radio" name="house-type" id="house" value="house" required>Casa
+                </label>
+
+                <label for="apartment">
+                    <input type="radio" name="house-type" id="apartment" value="apartment" required>Apartamento
+                </label>
+            </fieldset>
+            <fieldset>
+                <label for="resume"></label>
+                <p>Resumo do Currículo:</p>
+                <textarea name="resume" id="resume" cols="40" rows="15" maxlength="1000" required></textarea>
+                <br>
+                <br>
+                <label for="office">Cargo:</label>
+                <input class="form-control" type="text" id="office" name="office" required maxlength="40">
+                <br>
+                <label for="office-description">Descrição de Cargo</label>
+                <input class="form-control" type="text" id="office-description" name="office-description" required maxlength="500">
+                <br>
+
+                <div>
+                    <label for="date-form" >Data de Início:</label>
+                    <input class="form-control" type="text" id="date-form" name="data" required>
+                </div>
+
+
+            </fieldset>
+            <button type="submit" id="default-button">Submit</button>
+            <button id="clear">Clear</button>
+            
+        </form>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+    <script src="node_modules/just-validate/dist/js/just-validate.min.js"></script>
+    <script src="script.js" type="module"></script>
+
+</body>
+</html>
