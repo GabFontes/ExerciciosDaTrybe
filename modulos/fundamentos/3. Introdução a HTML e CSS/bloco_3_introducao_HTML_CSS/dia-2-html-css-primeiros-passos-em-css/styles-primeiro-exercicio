@@ -1,0 +1,13 @@
+   
+        #cor-favorita{
+            font-size: 65px;
+            color: orange
+        }
+
+        .modify-color{
+
+            background-color: green;
+
+        }
+
+

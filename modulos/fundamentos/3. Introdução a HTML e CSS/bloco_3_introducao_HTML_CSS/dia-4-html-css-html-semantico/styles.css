@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    
+}
+
+    .nav-links {
+        border: solid 3px darkslategrey;
+        background-color: darkslategrey;
+        color: white;
+    }
+
+    main {
+        
+        
+    }
+    .stomatopoda {
+        width: 350px;
+    }
+
+    main {
+        font-family: cursive, fantasy;
+    }
+
+    h1 {
+        font-family: cursive, fantasy;
+    }
+
+    section img {
+        width: 450px;
+    }
+
+    footer {
+        position: absolute;
+        background-color: rgb(14, 28, 44);
+        color: #FFF;
+        width: 100%;
+        height: 100px;    
+        text-align: center;
+        line-height: 100px;
+
+    }
