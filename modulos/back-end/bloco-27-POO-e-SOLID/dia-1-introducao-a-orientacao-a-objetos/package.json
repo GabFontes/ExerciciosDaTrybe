@@ -1,0 +1,15 @@
+{
+  "name": "dia-1-introducao-a-orientacao-a-objetos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node Sales.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.7.0"
+  }
+}
